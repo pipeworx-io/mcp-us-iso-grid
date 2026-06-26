@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-us-iso-grid",
+  "version": "0.1.0",
+  "description": "US ISO Grid MCP — real-time electricity generation, fuel mix, demand,",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "us-iso-grid"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-us-iso-grid"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
